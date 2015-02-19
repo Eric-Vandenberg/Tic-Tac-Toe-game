@@ -1,0 +1,16 @@
+body {
+  color: black;  
+}
+
+.container {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 45px;
+  width: 45px;
+  background-color: #d3d3d3; 
+  display: inline-block;
+  text-align: center;
+}
