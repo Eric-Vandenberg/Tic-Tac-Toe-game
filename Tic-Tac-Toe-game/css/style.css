@@ -1,16 +1,44 @@
-body {
-  color: black;  
+html{
+	background: url('http://wallnoy.com/wp-content/uploads/2014/10/cool_background_57.jpg');
+	width:100%;
+	height:100%;
 }
 
 .container {
-  width: 150px;
-  margin: 0 auto;
+	width:100%;
+	height:100%;
+	text-align: center;
+	display:block;
+	vertical-align:center;
+	position: relative;
+    top: 50%;
+    transform: translateY(10%);
+}
+
+.box_container{
+	border:1px solid blue;
+	display:inline-block;
+	height:50%;
+	width:50%;
+	vertical-align: center;
 }
 
 .box {
-  height: 45px;
-  width: 45px;
-  background-color: #d3d3d3; 
+  height: 150px;
+  width: 150px;
+  background-color: lavender;
   display: inline-block;
   text-align: center;
+  border:3px solid black;
+  margin: 2% 2%;
+  font-size: 170px;
+  color:purple;
+  box-sizing:border-box;
+}
+
+.turn_switch{
+	margin-top: 5%;
+	background: lavender;
+	border:3px solid black;
+	
 }

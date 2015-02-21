@@ -1,17 +1,47 @@
-<div class="container">
-  <div class="box a one" onclick="mark(this)"></div>
-  <div class="box b one" onclick="mark(this)"></div>
-  <div class="box c one" onclick="mark(this)"></div>
-  <div class="box a two" onclick="mark(this)"></div>
-  <div class="box b two" onclick="mark(this)"></div>
-  <div class="box c two" onclick="mark(this)"></div>
-  <div class="box a three" onclick="mark(this)"></div>
-  <div class="box b three" onclick="mark(this)"></div>
-  <div class="box c three" onclick="mark(this)"></div>
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic-Tac-Toe</title>
+		<link rel="stylesheet" href="css/style.css">
+		 
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="box_container">
+			
+				<div class="row1">
+				  <div class="box a_one" onclick="mark(this)">&nbsp;</div>
+				  <div class="box b_one" onclick="mark(this)">&nbsp;</div>
+				  <div class="box c_one" onclick="mark(this)">&nbsp;</div>
+			  	</div>
+
+			  	<div class="row2">
+				  <div class="box a_two" onclick="mark(this)">&nbsp;</div>
+				  <div class="box b_two" onclick="mark(this)">&nbsp;</div>
+				  <div class="box c_two" onclick="mark(this)">&nbsp;</div>
+				</div>
+				
+				<div class="row3">
+				  <div class="box a_three" onclick="mark(this)">&nbsp;</div>
+				  <div class="box b_three" onclick="mark(this)">&nbsp;</div>
+				  <div class="box c_three" onclick="mark(this)">&nbsp;</div>
+				</div>
+			<div>
+		</div>
 
 
-<h2>Player 1</h2>
-<div class="assign_xo one"></div>
-<h2>Player 2</h2>
-<div class="assign_xo two"></div>
+
+
+		<div class="turn_switch">
+			<h2>Player 1</h2>
+			<div class="assign_xo_one"></div>
+			<h2>Player 2</h2>
+			<div class="assign_xo_two"></div>
+		</div> <!-- This closes turn switch -->
+
+		
+
+		<script type = "text/javascript" src="js/main.js"></script>
+	</body>
+</html>
