@@ -39,6 +39,42 @@ html{
 .turn_switch{
 	margin-top: 5%;
 	background: lavender;
-	border:3px solid black;
-	
+	border:3px solid black;	
+}
+
+.anything{
+	border:1px solid black;
+	display:table;
+	width:100%;
+}
+.ok{
+	display:table-cell;
+	width:50%;
+}
+
+.ok h2{
+	font-size:30px;
+	color:rgb(22, 96, 181);
+}
+.button_div{
+	display:table-cell;
+}
+
+button{
+	margin:0 auto;
+	display:block;
+	height:100px;
+	width:200px;
+	background-color: rgb(22, 96, 181);
+	font-size: 20px;
+	border:none;
+	color:white;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(30%);
+  	cursor:pointer;
+}
+
+button:hover{
+	background-color:red;
 }

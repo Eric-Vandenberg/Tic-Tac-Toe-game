@@ -11,33 +11,42 @@
 			<div class="box_container">
 			
 				<div class="row1">
-				  <div class="box a_one" onclick="mark(this)">&nbsp;</div>
-				  <div class="box b_one" onclick="mark(this)">&nbsp;</div>
-				  <div class="box c_one" onclick="mark(this)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 1)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 2)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 3)">&nbsp;</div>
 			  	</div>
 
 			  	<div class="row2">
-				  <div class="box a_two" onclick="mark(this)">&nbsp;</div>
-				  <div class="box b_two" onclick="mark(this)">&nbsp;</div>
-				  <div class="box c_two" onclick="mark(this)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 4)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 5)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 6)">&nbsp;</div>
 				</div>
 				
 				<div class="row3">
-				  <div class="box a_three" onclick="mark(this)">&nbsp;</div>
-				  <div class="box b_three" onclick="mark(this)">&nbsp;</div>
-				  <div class="box c_three" onclick="mark(this)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 7)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 8)">&nbsp;</div>
+				  <div class="box" onclick="mark(this, 9)">&nbsp;</div>
 				</div>
-			<div>
+			</div>
 		</div>
 
 
 
 
+
+
 		<div class="turn_switch">
-			<h2>Player 1</h2>
-			<div class="assign_xo_one"></div>
-			<h2>Player 2</h2>
-			<div class="assign_xo_two"></div>
+			<div class ="anything">
+			<div class ="ok">
+				<h2>Player 1</h2>
+				<div class="assign_xo_one"></div>
+				<h2>Player 2</h2>
+				<div class="assign_xo_two"></div>
+			</div>
+			<div class="button_div">
+			<button type="button" onclick="reset()"> RESET</button>
+			</div>
+			</div>
 		</div> <!-- This closes turn switch -->
 
 		
